@@ -1,0 +1,537 @@
+<html>
+	<head>
+		<title> Tables </title>
+	</head>
+	
+	<body>
+	
+	<h3> 1.	ДЕМОНСТРАЦИЯ COLSPAN И ЗАГОЛОВКОВ </h3>
+		<table  border = "1" width = "160" height = "100" cellspacing = "1">
+			
+			<tr>
+				<th  colspan = "2">  Head1 </th>
+				<th  colspan = "2">  Head2 </th>
+			</tr>
+			
+			<tr>
+				<td widtd = "40"> A </td>
+				<td widtd = "40"> B </td>
+				<td widtd = "40"> C </td>
+				<td widtd = "40"> D </td>
+			</tr>
+			
+			<tr>
+				<td widtd = "40"> E </td>
+				<td widtd = "40"> F </td>
+				<td widtd = "40"> G </td>
+				<td widtd = "40"> H </td>
+			</tr>
+			
+		</table>
+		
+		<p>
+		
+		<h3> 2.	ДЕМОНСТРАЦИЯ МНОЖЕСТВЕННЫХ ЗАГОЛОВКОВ, COLSPAN </h3>
+		
+		<table  border = "1" width = "350" height = "100" cellspacing = "1">
+			
+			<tr>
+				<th colspan = "2">  Head1 </th>
+				<th colspan = "2">  Head2 </th>
+			</tr>
+			
+			<tr>
+				<th colspan = "1">  Head3 </th>
+				<th colspan = "1">  Head4 </th>
+				<th colspan = "1">  Head5 </th>
+				<th colspan = "1">  Head6 </th>
+			</tr>
+			
+			<tr>
+				<td> A </td>
+				<td> B </td>
+				<td> C </td>
+				<td> D </td>
+			</tr>
+			
+			<tr>
+				<td> E </td>
+				<td> F </td>
+				<td> G </td>
+				<td> H </td>
+			</tr>
+			
+		</table>
+	
+	
+	<p>
+	
+	<h3> 3.	ДЕМОНСТРАЦИЯ БОКОВЫХ ЗАГОЛОВКОВ </h3>
+		
+		<table  border = "1" width = "200" height = "80" cellspacing = "1">
+			
+			
+			<tr>
+				<th colspan = "1">  Head1 </th>
+				<td colspan = "1">  Item 1 </td>
+				<td colspan = "1">  Item 2 </td>
+				<td colspan = "1">  Item 3 </td>
+			</tr>
+			
+			<tr>
+				<th colspan = "1">  Head2 </th>
+				<td> Item 4 </td>
+				<td> Item 5 </td>
+				<td> Item 6 </td>
+			</tr>
+			
+			<tr>
+				<th colspan = "1">  Head3 </th>
+				<td> Item 7 </td>
+				<td> Item 8 </td>
+				<td> Item 9 </td>
+			</tr>
+			
+		</table>
+		
+		<p>
+		
+		<h3> 4.	ДЕМОНСТРАЦИЯ БОКОВЫХ ЗАГОЛОВКОВ, ROWSPAN </h3>
+		
+		<table  border = "1" width = "400" height = "80" cellspacing = "1">
+			
+			
+			<tr>
+				<th rowspan = "2">  Head1 </th>
+				<td>  Item 1 </td>
+				<td>  Item 2 </td>
+				<td>  Item 3 </td>
+				<td>  Item 4 </td>
+			</tr>
+			
+			<tr>
+				<td> Item 5 </td>
+				<td> Item 6 </td>
+				<td> Item 7 </td>
+				<td> Item 8 </td>
+			</tr>
+			
+			<tr>
+				<th rowspan = "1"> Head2 </th>
+				<td> Item 9 </td>
+				<td> Item 10 </td>
+				<td> Item 11 </td>
+				<td> Item 12 </td>
+			</tr>
+			
+		</table>
+		
+		
+		<p>
+		
+		<h3> 5.	ПРИМЕР ТАБЛИЦЫ ИСПОЛЬЗУЮЩЕЙ ВСЕ ЭТИ ТЭГИ </h3>
+		
+		<table  border = "1" width = "380" height = "140" cellspacing = "1">
+			
+			
+			<tr>
+				<th colspan = "1" >   </th>
+				<th colspan = "1" rowspan = "2">   </th>
+				<th colspan = "2"> Average </th>
+			</tr>
+			
+			<tr>
+				
+				<td colspan = "1">   </td>
+				<th> Height </th>
+				<th> Weight </th>
+			</tr>
+			
+			<tr>
+				<th rowspan = "2">  Gender </th>
+				<th> Males </th>
+				<td> 1.9 </td>
+				<td> 0.003 </td>
+			</tr>
+			
+			<tr>
+				<th> Females </th>
+				<td> 1.7 </td>
+				<td> 0.002 </td>
+			</tr>
+			
+		</table>
+		
+		<p>
+	
+	
+		<p>
+		
+		<h3> 6.	ИСПОЛЬЗОВАНИЕ ROWSPAN/COLSPAN  </h3>
+		
+		<table  border = "1" width = "10" height = "100" cellspacing = "1">
+			
+			
+			<tr>
+				<td rowspan = "2"> A </td>
+				<td colspan = "1"> 1 </td>
+				<td colspan = "2"> 2 </td>
+			</tr>
+			
+			<tr>
+				<td colspan = "1"> 3 </td>
+				<td colspan = "1"> 4 </td>
+			</tr>
+			
+			<tr>
+				
+				<td> C </td>
+				<td colspan = "2"> D </td>
+			</tr>
+			
+		</table>
+		
+		<p>
+		
+		
+		<p>
+		
+		
+			<h3> 7.	ТАБЛИЦА С РАМКОЙ ШИРИНОЙ 10   </h3>
+		
+		<table  border = "10" width = "150" height = "50" cellspacing = "1">
+			
+			<tr>
+				<td > Item 1 </td>
+				<td > Item 2 </td>
+			</tr>
+			
+			<tr>
+				<td > Item 3 </td>
+				<td > Item 4 </td>
+			</tr>
+			
+			
+		</table>
+		
+		<p>
+		
+		<p>
+		<p> <h3> 8.	CELLPADDING И CELLSPACING </h3>
+		
+		<table  border = "1" width = "10" height = "100" cellspacing = "1" cellpadding = "10">
+			<caption>  a.  </caption>
+			
+			
+			<tr >
+				<td > A </td>
+				<td > B </td>
+				<td > C </td>
+			</tr>
+			
+			<tr>
+				<td > D </td>
+				<td > E </td>
+				<td > F </td>
+			</tr>
+			
+			
+		</table>
+		<p>
+		
+		<p>
+		
+		<table  border = "1" width = "10" height = "100" cellspacing = "15" cellpadding = "1">
+			<caption>  b.  </caption>
+			
+			
+			<tr >
+				<td > A </td>
+				<td > B </td>
+				<td > C </td>
+			</tr>
+			
+			<tr>
+				<td > D </td>
+				<td > E </td>
+				<td > F </td>
+			</tr>
+			
+			
+		</table>
+		<p>
+		
+		<table  border = "7" width = "10" height = "100" cellspacing = "10" cellpadding = "10">
+			<caption>  c.  </caption>
+			
+			
+			<tr >
+				<td > A </td>
+				<td > B </td>
+				<td > C </td>
+			</tr>
+			
+			<tr>
+				<td > D </td>
+				<td > E </td>
+				<td > F </td>
+			</tr>
+			
+			
+		</table>
+		<p>
+		
+		<p>
+		<p> <h2 align = center> Выравнивание, заголовки и подтаблицы  </h2>
+		<h3 align = center> Демонстрация множественных строк в таблице  </h3>
+		
+		<table  border = "1"  cellspacing = "1" cellpadding = "6">
+			<caption>  9.  </caption>
+			
+			
+			<tr >
+				<th > January </th>
+				<th > February  </th>
+				<th > March  </th>
+			</tr>
+			
+			<tr>
+				<td > <nobr> This is cell 1 </nobr> </td>
+				<td > <nobr> Cell 2 </nobr></td>
+				<td > <nobr> Another cell, </nobr>  <div> cell 3 </div> </td>
+			</tr>
+			
+			<tr>
+				<td > <nobr> Cell 4 </nobr></td>
+				<td >  <nobr> and now this </nobr>  <div> is cell 5 </div> </td>
+				<td > <nobr> Cell 6 </nobr></td>
+			</tr>
+			
+			
+		</table>
+		<p>
+		
+		<p>
+		<table  border = "1"  cellspacing = "1" cellpadding = "6">
+			<caption>  10.  </caption>
+			
+			
+			<tr >
+				<th > January </th>
+				<th > February  </th>
+				<th > March  </th>
+			</tr>
+			
+			<tr>
+				<td align = "center"> <nobr> all aligned center </nobr> </td>
+				<td align = "center"> <nobr> Cell 2 </nobr> </td>
+				<td align = "center"> <nobr> Another cell, </nobr>  <div> cell 3 </div> </td>
+			</tr>
+			
+			<tr>
+				<td align = "right"> <nobr> aligned right </nobr> </td>
+				<td align = "center">  <nobr> aligned to center </nobr> </td>
+				<td align = "left"> <nobr> default, </nobr>  <div> aligned left </div> </td>
+			</tr>
+			
+			
+		</table>
+		<p>
+		
+		<p>
+		<table  border = "1"  cellspacing = "1" cellpadding = "6">
+			<caption>  11.  </caption>
+			
+			
+			<tr >
+				<th > January </th>
+				<th > February  </th>
+				<th > March  </th>
+			</tr>
+			
+			<tr>
+				<td valign = "top"> <nobr> all aligned to top </nobr> </td>
+				<td valign = "top"> <nobr> and now this </nobr> <div> is cell 2 </div></td>
+				<td valign = "top"> <nobr> Cell 3 </nobr>   </td>
+			</tr>
+			
+			<tr>
+				<td valign = "top"> <nobr> aligned to the top </nobr> </td>
+				<td valign = "bottom">  <nobr> aligned to the bottom </nobr> </td>
+				<td > <nobr> default alignment, </nobr>  <div> center </div> </td>
+			</tr>
+			
+		</table>
+		<p>
+		
+		<p>
+		<table  border = "1"  cellspacing = "1" cellpadding = "6">
+			<caption>  12.   </caption>
+			<caption>  Верхний заголовок   </caption>
+			
+			
+			<tr >
+				<th > January </th>
+				<th > February  </th>
+				<th > March  </th>
+			</tr>
+			
+			<tr>
+				<td > <nobr> This is cell 1 </nobr> </td>
+				<td > <nobr> Cell 2 </nobr> </td>
+				<td > <nobr> Another cell </nobr>   <div> cell 3 </div> </td>
+			</tr>
+			
+		</table>
+		<p>
+		
+		<p>
+		<table  border = "1"  cellspacing = "1" cellpadding = "6">
+			<caption>  13.   </caption>
+			<caption align = "bottom">  Нижний заголовок   </caption>
+			
+			
+			<tr >
+				<th > January </th>
+				<th > February  </th>
+				<th > March  </th>
+			</tr>
+			
+			<tr>
+				<td > <nobr> This is cell 1 </nobr> </td>
+				<td > <nobr> Cell 2 </nobr> </td>
+				<td > <nobr> Another cell </nobr>   <div> cell 3 </div> </td>
+			</tr>
+			
+		</table>
+		<p>
+		
+		
+		
+		<table  border = "1"  >
+			<nobr> 14. ВЛОЖЕННЫЕ ТАБЛИЦЫ: ТАБЛИЦА ABCD ВНУТРИ ТАБЛИЦЫ 123456 </nobr>
+			
+			<tr >
+				<td > 1 </td>
+				<td > 2  </td>
+				
+				<td >
+					3  
+					<table border = "1"  cellspacing = "1" cellpadding = "3"> 
+						<tr>
+							<td> A </td>
+							<td> B </td>
+						</tr>
+						
+						<tr>
+							<td> C </td>
+							<td> D </td>
+						</tr>
+						
+					</table>
+				</td>
+			</tr>
+			
+			<tr>
+				<td > 4 </td>
+				<td > 5 </td>
+				<td > 6 </td>
+			</tr>
+	
+			
+		</table>
+		<p>
+		
+		<h3> 15.	ЗАДАНИЕ ШИРИНЫ ТАБЛИЦЫ  <h3>
+		<h4> ШИРИНА 50% </h4>
+		
+		<table border = "1" width = "50%"> 
+			<tr>
+				<td > Width=50% </td>
+				<td > Width=50% </td>
+			</tr>
+			
+			<tr>
+				<td> 3 </td>
+				<td> 4 </td>
+			</tr>
+		
+		</table>
+		<p>
+		
+		<p>
+		<table border = "1" width = "100%"> 
+			<tr>
+				<td > WIDTH=100% </td>
+				<td> This is item 2 </td>
+			</tr>
+			
+			<tr>
+				<td> 3 </td>
+				<td> 4 </td>
+			</tr>
+		
+		</table>
+		<p>
+		
+		<h4> 16.	ЦЕНТРИРОВАНИЕ ТАБЛИЦЫ НА СТРАНИЦЕ  </h4>
+		
+		<table border = "1" align = "center" width = "50%"> 
+			<tr>
+				<td > A </td>
+				<td > B </td>
+				<td > C </td>
+			</tr>
+			
+			<tr>
+				<td > D </td>
+				<td > E </td>
+				<td > F </td>
+			</tr>
+		
+		</table>
+		<p>
+		
+		<h4> 17.	ШИРИНА ТАБЛИЦЫ И ВЛОЖЕННЫЕ ТАБЛИЦЫ </h4>
+		
+		<table border = "1" width = "50%"> 
+			<tr>
+				<td > Item 1 </td>
+				<td > Item 2 </td>
+			</tr>
+			
+			<tr>
+				<td > 
+					<table border = "1" width = "100%">
+						<tr>
+							<td> Item A </td>
+							<td> Item B </td>
+						</tr>
+					</table>
+				</td>
+				
+				<td > Item 4 </td>
+			</tr>
+		
+		</table>
+		<p>
+		
+		<h4> 18.	HEIGHT=15%  </h4>
+		
+		<table border = "1" height = "15%" width = "50%"> 
+			<tr>
+				<td > HEIGHT=15% </td>
+				<td > Item 2 </td>
+			</tr>
+			
+			<tr>
+				<td > 3</td>
+				
+				<td > 4 </td>
+			</tr>
+		
+		</table>
+		<p>
+		
+	</body>
+</html>

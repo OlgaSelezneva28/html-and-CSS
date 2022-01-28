@@ -1,0 +1,184 @@
+<html>
+	<head>
+		<title> Анкета </title>
+	</head>
+	
+	<body>
+		<form action ="" method = "post">
+		
+		
+		<h1> Анкета </h1>
+		<p>
+		
+		<fieldset>
+			<legend> Личная информация </legend>
+			<p>
+			Введите имя:
+			<p>
+			<input type = "disabled" name = "1name" value = " ">  </input>
+			<p>
+			
+			Введите фамилию:
+			<p>
+			<input type = "disabled" name = "2name" value = " ">  </input>
+			<p>
+			
+			<p>
+			Пол
+			<p>
+			<input type = "radio" id = "w" name = "choice" checked>
+			<label for = "w"> Женский </label> 
+			 
+			<input type = "radio" id = "m" name = "choice" >
+			<label for = "m"> Мужской </label> 
+			
+			<p>
+			Введите e-mail:
+			<p>
+			<input type = "disabled" name = "email" value = " @mail.ru">  </input>
+			<p>
+			
+			Введите номер телефона:
+			<p>
+			<input type = "disabled" name = "number" value = "+7 ( ) ">  </input>
+			<p>
+			
+			
+			<p>
+			Сколько Вам лет?
+			
+			<ol>
+				<li><input type = "radio" name = "age" value = "18">младше 18</li>
+				<li><input type = "radio" name = "age" value = "18-24">от 18 до 24</li>
+				<li><input type = "radio" name = "age" value = "25-34">от 25 до 35</li>
+				<li><input type = "radio" name = "age" value = "35-50">более 35</li>
+			</ol>
+
+			<p>
+			Удобный способ связи:
+			
+			<ol>
+				<li><input type = "checkbox" name = "connect" value = "call">Звонок по номеру телефона</li>
+				<li><input type = "checkbox" name = "connect" value = "phone_message" >Сообщение на телефон</li>
+				<li><input type = "checkbox" name = "connect" value = "e-mail_message">Сообщение на почту</li>
+			</ol>
+			
+			<p>
+			Прикрепить фото
+			<p>
+			<input type = "file" name = "foto"> 
+		</fieldset>
+		
+		
+		<p>
+			<h3>Дайте ответ на вопросы ниже или выберите из предложенных вариантов</h3>
+		
+		<ol>
+			<p>
+			<li> Введите названия океанов через запятую
+				<p>
+				<textarea cols = "100" rows = "3" name = "list" > </textarea>
+				<p>
+			</li>
+			
+			
+			<p>
+			<li> Выберите океан, в котором обитает Odontaster validus (вид морских звезд)
+				<p>
+				<select name = "fauna">
+					<option> Атлантический</option>
+					<option selected> Южный</option>
+					<option> Тихий</option>
+				</select>
+			</li>
+			
+			
+			<p>
+			<li> Выберите океаны, в которых обитает Логгерхед (головастая морская черепаха)
+				<p>
+				<select  name = "groups">
+					<optgroup label = "1">
+						<option> Атлантический</option>
+						<option> Южный</option>
+						<option> Тихий</option>
+					</optgroup>
+					
+					<optgroup label = "2">
+						<option> Северно Ледовитый</option>
+						<option> Индийский</option>
+					</optgroup>
+				</select>
+				
+				<select  name = "groups2">
+					<optgroup label = "1">
+						<option> Атлантический</option>
+						<option> Южный</option>
+						<option> Тихий</option>
+					</optgroup>
+					
+					<optgroup label = "2">
+						<option> Северно Ледовитый</option>
+						<option> Индийский</option>
+					</optgroup>
+				</select>
+			</li>
+			
+			<p>
+			<li> Выберите океаны, в которых обитает Линкия (вид морских звезд)
+				<p>
+				<select name = "oceans" multiple>
+						<option> Атлантический</option>
+						<option> Южный</option>
+						<option> Тихий</option>
+						<option> Северно Ледовитый</option>
+						<option> Индийский</option>
+				</select>
+			</li>	
+		</ol>
+		
+		<p>
+		<fieldset>
+			<legend> Выбор ответа по картинке</legend>
+			<p>
+			На какой картинке "Mnemiopsis leidyi"? Нажмите на картинку 
+			<p>
+			
+				<p>
+				<input type = "image" name = "p1" width = "100" height = "100" formaction = "No.html"
+						src = " https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Zooplankton2_300.jpg/290px-Zooplankton2_300.jpg "> 
+		        
+				<p>
+				<input type = "image" name = "p2" width = "100" height = "100"  formaction = "No.html"
+						src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Cestum_veneris_in_Hawaii.png/413px-Cestum_veneris_in_Hawaii.png">
+				
+				<p>
+				<input type = "image" name = "p3" width = "100" height = "100" formaction = "Yes.html"
+						src = "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Sea_walnut%2C_Boston_Aquarium.jpg/413px-Sea_walnut%2C_Boston_Aquarium.jpg">
+				
+				
+				<p>
+				Верный ответ был выбран с первого раза?
+				<p>
+				
+				<button> 
+					<img src = "https://wiki.mininuniver.ru/images/2/24/Зеленая_галочка.jpg" 
+						width = "10" height = "10">
+					Да
+				</button>
+				
+				<button>
+					<img src = "https://www.xcom.ru/upload/shop/ms/x.png" 
+						width = "10" height = "10">
+					Нет
+				</button>
+		</fieldset>
+			
+		<p>
+		<input type = "reset" name = "clear" value = "Начать заново"> </input>
+		<input type = "submit"  name = "sent" value = "Отправить" > </input>
+		<p>
+		
+		</form>
+	</body>
+</html>
+

@@ -1,0 +1,241 @@
+<html>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+		<head>	
+			<title> Главная страница на слоях</title>
+				
+				<style>
+					
+					body
+					{margin:0;
+					padding:100px;
+					font-family:Verdana,Tahona,Arial,Helvetica,Sans-Serif;
+					background-color:DeepSkyBlue;
+					background-image: url(рыбы.jpg);}
+					
+					div#menunav
+					{width:100%
+					float:left;
+					border-top:1px solid #000000;
+					border-bottom:1px solid #000000;
+					font-size:16px;
+					background-color:#blue;
+					padding:10px 50px 50px 100px;}
+
+					div#menunav ul
+					{margin:0px;
+					padding:0px;
+					float:left;
+					border-left:1px solid #000000;
+					margin-left:15px;}
+
+					div#menunav li
+					{float:left;
+					position:relative;
+					list-style-type:none;
+					background-color:#FFEBC6;
+					border-right:1px solid #000000;}
+
+					div#menunav li:First-child{border-left:1px solid #000000;}
+
+					div#menunav a
+
+					{display:block;
+					test-decoration:none;
+					padding:0px 10px 0px 10px;
+					color:#006699;}
+
+					div#menunav a:hover{color:#FF3333;}
+
+					div#menunav li:hover{background-color:#FFFFFF;}
+
+					div#menunav ul li ul
+					{mardin:0px;
+					position:absolute;
+					left:-1px;
+					width:20em;
+					border-top:1px solid #000000; 
+					border-left:0px;}
+
+					div#menunav ul li ul li
+					{width:100%;
+					border:1px solid #000000;
+					border-top:0px;}
+
+					div#menunav ul li ul{display:none;}
+
+					div#menunav ul li:hover ul, div#menunav ul li ul:hover{display:block;}
+									
+						
+					
+							
+					h1,h2,h3,h4,h5,h6, p{margin-top:0px;
+									  padding-right:15px;
+									  padding-left:15px;}
+									  
+					a img{border:none;}
+					
+					a:link{color:black;
+							  text-decoration:underline;}
+							  
+					a:visited{color:DarkOrange;text-decoration:none;}
+					
+					a:hover, a:active, a:focus{text-decoraton:underline;}
+					
+					.container{width:80%;
+									 max-width:1260px;
+									 min-width:780px;
+									 background-color:PaleGreen;
+									 margin: 0 auto
+									 
+					.header{background-color:#6F7094;}
+					
+					.sidebar1{float:left;
+					 width:25%;
+					 background-color:DarkOrange;
+					 padding-bottom:0px;}
+									 
+					.content{padding:10px,0;
+								     width:50%;
+								     float:left;}
+								   
+					.sidebar2{float:left;
+									 width:25%;
+									 height:100%;
+									 background-color:DarkOrange;
+									 padding:10px 0;}
+									 
+					.footer{padding:10px 0;
+									 background-color:DarkOrange;
+									 clear:both;}
+
+
+									
+				</style>
+		</head>
+
+		<body>
+		
+			<div class="container">
+				<div class="header">
+					<h1> Фауна Антлантического океана</h1>
+				</div>
+				
+				<div class="sidebar1">
+				<h3>Навигация</h3>
+
+				<div id="menunav">
+
+					<ul>
+						<li> Антлантический
+							<ul>
+								<li> <a href="#">Бесчелюстные</a> </li>
+								<li> <a href="#">Гидрозои </a></li>
+								<li> <a href="#">Гребневики </a></li>
+								<li> <a href="#">Губки </a></li>
+								<li> <a href="#">Иглокожие </a></li>
+								<li> <a href="#">Коралловые полипы </a></li>
+							</ul>
+						</li>
+
+
+						<li>Индийский 
+							<ul>
+								<li> <a href="#">Бесчелюстные</a> </li>
+								<li> <a href="#">Гидрозои </a></li>
+								<li> <a href="#">Гребневики </a></li>
+								<li> <a href="#">Губки </a></li>
+								<li> <a href="#">Иглокожие </a></li>
+								<li> <a href="#">Млекопитающие </a></li>
+								<li> <a href="#">Моллюски </a></li>
+							</ul>
+						</li>
+
+
+						<li>Северно Ледовитый
+							<ul>
+								<li> <a href="#">Гребневики </a></li>
+								<li> <a href="#">Иглокожие </a></li>
+								<li> <a href="#">Млекопитающие </a></li>
+								<li> <a href="#">Многощетинковые черви </a></li>
+								<li> <a href="#">Моллюски </a></li>
+								<li> <a href="#">Немертины </a></li>
+								<li> <a href="#">Рыбы </a></li>
+							</ul>
+						</li>
+
+
+						<li>Тихий 
+							<ul>
+								 <li> <a href="#">Бесчелюстные </a></li>
+								 <li> <a href="#">Гидрозои </a></li>
+								 <li> <a href="#">Гребневики</a> </li>
+								 <li> <a href="#">Губки</a></li>
+								 <li> <a href="#">Иглокожие </a></li>
+								 <li> <a href="#">Коралловые полипы</a> </li>
+								 <li> <a href="#">Круглые черви </a></li>
+								 <li> <a href="#">Кубозои</a></li>
+								 <li> <a href="#">Млекопитающие </a></li>
+								 <li> <a href="#">Многощетинковые черви </a></li>
+								 <li> <a href="#">Моллюски </a></li>
+								 <li> <a href="#">Немертины </a></li>
+								 <li> <a href="#">Оболочники </a></li>
+								 <li> <a href="#">Пресмыкающиеся</a></li>
+								 <li> <a href="#">Ракообразные</a></li>
+								 <li> <a href="#">Рыбы</a></li>
+							</ul>
+						</li>
+						
+						
+						<li>Южный
+							<ul>
+								 <li> <a href="#">Губки </a></li>
+								 <li> <a href="#">Иглокожие </a></li>
+								 <li> <a href="#">Млекопитающие </a></li>
+								 <li> <a href="#">Моллюски </a></li>
+								 <li> <a href="#">Немертины </a></li>
+								 <li> <a href="#">Оболочники</a> </li>
+								 <li> <a href="#">Ракообразные</a></li>
+								 <li> <a href="#">Рыбы</a></li>
+							</ul>
+						</li>
+					</ul>
+			
+				<a href="#"><img src="рыбы.jpg" width="100%"  height="70%"  style="background-color:#8090AB;   display:block;">
+				</a>
+				</div>
+				</div>
+				
+				<div class="content">
+				<h3 align=center>Информация</h3>
+					
+					<p style="border:#CC0000 solid 1px; padding:5px;"> 		Несмотря на технологический прогресс и продолжающееся изучение 
+					своей собственной планеты, на Земле остается еще достаточное количество темных пятен. 
+					Сильнее всего это касается, конечно же, морей и океанов – до 
+					сих пор там обитают сотни тысяч если не миллионов неизвестных науке видов животных.
+					
+					<p style="border:#CC0000 solid 1px; padding:5px;">
+							Моря и океана покрывают около 70% поверхности планеты, наиболее 
+					изученные места находятся вдоль населенных прибрежных зон, судоходные 
+					маршруты тянутся тонкой нитью посреди безбрежной водяной пустыни, а исследованием 
+					глубинных слоев океана ученые занимаются лишь в выборочных точках – сказывается дороговизна 
+					и сложность подобных исследований. Имея в большинстве случаев лишь 
+					смутные представления о рельефе океанического дна, мы можем только 
+					догадываться, какие животные обитают в том или ином месте, и какие 
+					свойства подарила им природа в процессе многовековой эволюции. Очевидно, 
+					что менее изученные виды – ракообразные, различные моллюски, а также глубоководные рыбы.
+				
+				</div>
+				
+				<div class="sidebar2">
+					<h3> <a href ="news.html">Новости </a></h3>
+				</div>
+				
+				<div class="footer">
+					<h3><a href="Opros/Opros.html" target = "_self">Опрос</a></h3>
+				</div>
+				
+			</div>
+	
+		</body>
+</html>
